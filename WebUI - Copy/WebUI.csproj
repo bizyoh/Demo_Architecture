@@ -1,0 +1,96 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\images\products\050efca2d3b14640afe2566f08b95553.PNG" />
+    <Content Remove="wwwroot\images\products\143f372534fa48cb83699415e808e58b.webp" />
+    <Content Remove="wwwroot\images\products\279b275edfd64a768d5a74f022c5ffd0.PNG" />
+    <Content Remove="wwwroot\images\products\319372d8d330483a9b29e6bd7b1b4b59.PNG" />
+    <Content Remove="wwwroot\images\products\4169de6aa721400e9f5090676e20bfc7.jpg" />
+    <Content Remove="wwwroot\images\products\4428800d53e34f22ac8a43ee498b6de9.PNG" />
+    <Content Remove="wwwroot\images\products\5230103a928944678336a22f041506ef.PNG" />
+    <Content Remove="wwwroot\images\products\53bcf7061bc4429bbfe30942d510d7f2.jpg" />
+    <Content Remove="wwwroot\images\products\5ba421ad308d4324a68703e49f9f98f4.PNG" />
+    <Content Remove="wwwroot\images\products\5f0e678dc4874c28b7de93cc5d21ba8b.jpg" />
+    <Content Remove="wwwroot\images\products\5fd7b36c09f545ff922732e42e7b2c10.PNG" />
+    <Content Remove="wwwroot\images\products\63e9a059c6af4bfb850609cc7da447c0.jpg" />
+    <Content Remove="wwwroot\images\products\69bdcc4fcbc5459089caf8397ab9ae90.PNG" />
+    <Content Remove="wwwroot\images\products\6a0f323b9c3544e3931e9ddae64d31ff.PNG" />
+    <Content Remove="wwwroot\images\products\6a2ccf9ff9214e32a7642034222c4e7b.jpg" />
+    <Content Remove="wwwroot\images\products\8539b8c77cec421c97658d52652be3ac.PNG" />
+    <Content Remove="wwwroot\images\products\85bed26b2e3643e38e5e09ca74ac2df0.PNG" />
+    <Content Remove="wwwroot\images\products\8764443409e846d4833d660b0eea9b31.webp" />
+    <Content Remove="wwwroot\images\products\8c4938d3b4774a6cbc0a2f2a1cc01d11.jpg" />
+    <Content Remove="wwwroot\images\products\8c6f31b3df574aa59168737159c026a0.PNG" />
+    <Content Remove="wwwroot\images\products\8dec92a4bf7e4283b2db051db7565051.PNG" />
+    <Content Remove="wwwroot\images\products\9c4a5e4a4224400584ca55a0ed22df7d.PNG" />
+    <Content Remove="wwwroot\images\products\9e2c5a97f9b54557948341256963d8ec.PNG" />
+    <Content Remove="wwwroot\images\products\a45b7300143147838fea00b4f5ab2b33.PNG" />
+    <Content Remove="wwwroot\images\products\a5d86e41718f4015aafa35b158c7bc01.PNG" />
+    <Content Remove="wwwroot\images\products\b0a620b9b38a4404bd7138c12d95ddf6.webp" />
+    <Content Remove="wwwroot\images\products\b58823ffc5d0478b816f77db8b2567af.PNG" />
+    <Content Remove="wwwroot\images\products\be4b43d5f1d24996ab63782cd993b83f.jpg" />
+    <Content Remove="wwwroot\images\products\c386a49775e748a78961eea49f36498d.jpg" />
+    <Content Remove="wwwroot\images\products\c55a4f6da33a46bd8beff368488fc246.PNG" />
+    <Content Remove="wwwroot\images\products\d7567ff3ad6248aa873aeb0989200345.webp" />
+    <Content Remove="wwwroot\images\products\e296705b980e40dd81f9bd5719d705fb.jfif" />
+    <Content Remove="wwwroot\images\products\e2feb827e5ca448791825e37ac696a13.jpg" />
+    <Content Remove="wwwroot\images\products\e93776483d2344f58174d7e366b13cb6.PNG" />
+    <Content Remove="wwwroot\images\products\ff0a8e3371bd4b3ea0c3a82566b22312.webp" />
+    <Content Remove="wwwroot\images\products\ff9172dd86b6497fab7cc43ba47316e2.PNG" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\images\products\050efca2d3b14640afe2566f08b95553.PNG" />
+    <None Include="wwwroot\images\products\143f372534fa48cb83699415e808e58b.webp" />
+    <None Include="wwwroot\images\products\279b275edfd64a768d5a74f022c5ffd0.PNG" />
+    <None Include="wwwroot\images\products\319372d8d330483a9b29e6bd7b1b4b59.PNG" />
+    <None Include="wwwroot\images\products\4169de6aa721400e9f5090676e20bfc7.jpg" />
+    <None Include="wwwroot\images\products\4428800d53e34f22ac8a43ee498b6de9.PNG" />
+    <None Include="wwwroot\images\products\5230103a928944678336a22f041506ef.PNG" />
+    <None Include="wwwroot\images\products\53bcf7061bc4429bbfe30942d510d7f2.jpg" />
+    <None Include="wwwroot\images\products\5ba421ad308d4324a68703e49f9f98f4.PNG" />
+    <None Include="wwwroot\images\products\5f0e678dc4874c28b7de93cc5d21ba8b.jpg" />
+    <None Include="wwwroot\images\products\5fd7b36c09f545ff922732e42e7b2c10.PNG" />
+    <None Include="wwwroot\images\products\63e9a059c6af4bfb850609cc7da447c0.jpg" />
+    <None Include="wwwroot\images\products\69bdcc4fcbc5459089caf8397ab9ae90.PNG" />
+    <None Include="wwwroot\images\products\6a0f323b9c3544e3931e9ddae64d31ff.PNG" />
+    <None Include="wwwroot\images\products\6a2ccf9ff9214e32a7642034222c4e7b.jpg" />
+    <None Include="wwwroot\images\products\8539b8c77cec421c97658d52652be3ac.PNG" />
+    <None Include="wwwroot\images\products\85bed26b2e3643e38e5e09ca74ac2df0.PNG" />
+    <None Include="wwwroot\images\products\8764443409e846d4833d660b0eea9b31.webp" />
+    <None Include="wwwroot\images\products\8c4938d3b4774a6cbc0a2f2a1cc01d11.jpg" />
+    <None Include="wwwroot\images\products\8c6f31b3df574aa59168737159c026a0.PNG" />
+    <None Include="wwwroot\images\products\8dec92a4bf7e4283b2db051db7565051.PNG" />
+    <None Include="wwwroot\images\products\9c4a5e4a4224400584ca55a0ed22df7d.PNG" />
+    <None Include="wwwroot\images\products\9e2c5a97f9b54557948341256963d8ec.PNG" />
+    <None Include="wwwroot\images\products\a45b7300143147838fea00b4f5ab2b33.PNG" />
+    <None Include="wwwroot\images\products\a5d86e41718f4015aafa35b158c7bc01.PNG" />
+    <None Include="wwwroot\images\products\b0a620b9b38a4404bd7138c12d95ddf6.webp" />
+    <None Include="wwwroot\images\products\b58823ffc5d0478b816f77db8b2567af.PNG" />
+    <None Include="wwwroot\images\products\be4b43d5f1d24996ab63782cd993b83f.jpg" />
+    <None Include="wwwroot\images\products\c386a49775e748a78961eea49f36498d.jpg" />
+    <None Include="wwwroot\images\products\c55a4f6da33a46bd8beff368488fc246.PNG" />
+    <None Include="wwwroot\images\products\d7567ff3ad6248aa873aeb0989200345.webp" />
+    <None Include="wwwroot\images\products\e296705b980e40dd81f9bd5719d705fb.jfif" />
+    <None Include="wwwroot\images\products\e2feb827e5ca448791825e37ac696a13.jpg" />
+    <None Include="wwwroot\images\products\e93776483d2344f58174d7e366b13cb6.PNG" />
+    <None Include="wwwroot\images\products\ff0a8e3371bd4b3ea0c3a82566b22312.webp" />
+    <None Include="wwwroot\images\products\ff9172dd86b6497fab7cc43ba47316e2.PNG" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="11.1.0" />
+    <PackageReference Include="FluentValidation.AspNetCore" Version="11.1.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Application\Application.csproj" />
+  </ItemGroup>
+
+</Project>
