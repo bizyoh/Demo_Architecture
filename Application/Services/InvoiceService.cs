@@ -1,5 +1,6 @@
 ﻿using Application.Exceptions;
 using Application.Filters;
+using Application.Interfaces;
 using Application.Interfaces.InvoiceService;
 using Application.Models.DTO.InvoiceDto;
 using AutoMapper;
@@ -9,9 +10,9 @@ namespace Application.Services
 {
     public class InvoiceService : IInvoiceService
     {
-        private AppDBContext db;
+        private IApplicationDbContext db;
         private IMapper mapper;
-        public InvoiceService(AppDBContext _db, IMapper _mapper)
+        public InvoiceService(IApplicationDbContext _db, IMapper _mapper)
         {
             db = _db;
             mapper = _mapper;

@@ -1,14 +1,17 @@
 ﻿using Application.Exceptions;
 using Application.Filters;
+using Application.Interfaces;
 using Application.Interfaces.InvoiceService;
 using Application.Interfaces.RoleService;
 using Application.Interfaces.UserService;
 using Application.Models.DTO.InvoiceDto;
+using Application.Models.DTO.RoleDto;
 using Application.Models.DTO.UserDto;
 using AutoMapper;
 using Domain.Entities;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
@@ -28,8 +31,8 @@ namespace Application.Services
         private IMapper mapper;
         private IInvoiceService invoiceService;
         private IConfiguration configuration;
-        private AppDBContext db;
-        public UserService(IInvoiceService _invoiceService, IRoleService _roleService, UserManager<User> _userManager, SignInManager<User> _signInManager, RoleManager<Role> _roleManager, IMapper _mapper, IConfiguration _configuration, AppDBContext _db)
+        private IApplicationDbContext db;
+        public UserService(IInvoiceService _invoiceService, IRoleService _roleService, UserManager<User> _userManager, SignInManager<User> _signInManager, RoleManager<Role> _roleManager, IMapper _mapper, IConfiguration _configuration, IApplicationDbContext _db)
         {
             invoiceService = _invoiceService;
             userManager = _userManager;

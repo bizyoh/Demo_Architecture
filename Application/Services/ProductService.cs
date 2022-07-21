@@ -1,5 +1,6 @@
 ﻿using Application.Exceptions;
 using Application.Filters;
+using Application.Interfaces;
 using Application.Interfaces.CategoryService;
 using Application.Interfaces.ProductService;
 using Application.Models.DTO.Product;
@@ -13,15 +14,17 @@ namespace Application.Services
 {
     public class ProductService : IProductService
     {
-        private AppDBContext db;
+
+        private IApplicationDbContext db;
         private IMapper mapper;
         private IWebHostEnvironment webHostEnvironment;
         private IHttpContextAccessor httpContextAccessor;
         private IConfiguration configuration;
         private ICategoryService categoryService;
-        public ProductService(AppDBContext _db, IMapper _mapper, IWebHostEnvironment _webHostEnvironment, IHttpContextAccessor _httpContextAccessor, IConfiguration _configuration)
+        public ProductService( IMapper _mapper, IWebHostEnvironment _webHostEnvironment, IHttpContextAccessor _httpContextAccessor, IConfiguration _configuration, IApplicationDbContext _db)
         {
             db = _db;
+
             mapper = _mapper;
             webHostEnvironment = _webHostEnvironment;
             httpContextAccessor = _httpContextAccessor;

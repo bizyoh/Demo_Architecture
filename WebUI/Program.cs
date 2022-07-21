@@ -1,18 +1,27 @@
+using Application.Filters;
 using Application.Interfaces.InvoiceService;
+using Application.Validatiors.User;
 using FluentValidation.AspNetCore;
+using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using System.Text;
-using WebUI.Validatiors.User;
 
 var builder = WebApplication.CreateBuilder(args);
-
+WebHost.CreateDefaultBuilder(args)
+     .ConfigureAppConfiguration((hostingContext, config) =>
+     {
+         config.SetBasePath(Directory.GetCurrentDirectory());
+         config.AddJsonFile("appsettings.json", optional: false, reloadOnChange: true);
+         config.AddJsonFile("appsettings.Development.json", optional: false, reloadOnChange: true);
+         config.AddEnvironmentVariables();
+     });
 // Add services to the container.
 builder.Services.AddControllers().AddFluentValidation(opts => opts.RegisterValidatorsFromAssembly(typeof(RegisterUserDtoValidator).Assembly));
 builder.Services.AddControllers().AddNewtonsoftJson(options => options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore);
+builder.Services.AddApplicationServices(builder.Configuration);
 builder.Services.AddInfrastructureServices(builder.Configuration);
-
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 

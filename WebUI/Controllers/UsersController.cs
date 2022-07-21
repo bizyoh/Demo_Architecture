@@ -1,9 +1,10 @@
-﻿using Application.Interfaces.UserService;
+﻿using Application.Filters;
+using Application.Interfaces.UserService;
 using Application.Models.DTO.UserDto;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using WebUI.Filters;
+
 
 namespace WebUI.Controllers
 {

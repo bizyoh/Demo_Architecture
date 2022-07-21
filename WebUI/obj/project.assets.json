@@ -2789,6 +2789,7 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "AutoMapper": "11.0.1",
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "11.0.0",
           "Domain": "1.0.0",
           "FluentValidation": "11.1.0",
           "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
@@ -2797,6 +2798,7 @@
           "Microsoft.EntityFrameworkCore": "6.0.7",
           "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
           "Microsoft.IdentityModel.Tokens": "6.21.0",
+          "Newtonsoft.Json": "13.0.1",
           "System.IdentityModel.Tokens.Jwt": "6.21.0"
         },
         "compile": {

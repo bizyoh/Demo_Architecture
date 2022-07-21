@@ -1,10 +1,10 @@
-﻿using Application.Interfaces.RoleService;
+﻿using Application.Filters;
+using Application.Interfaces.RoleService;
 using Application.Models.DTO.RoleDto;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-using WebUI.Filters;
 
 namespace WebUI.Controllers
 {

@@ -3,6 +3,8 @@ using Domain.Entities;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Infrastructure.Persistence.Configurations;
+using Microsoft.EntityFrameworkCore.Storage;
+using System.Data;
 
 namespace Infrastructure.Persistence
 {

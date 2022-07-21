@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "BrnkRKNuagZ8GABw3WqbYCktyqebAdk1FtHjVSj2MTCYi7GFGfbalJZFX9/j4wjBuucpc8/Dy5kDYCD4FhY9bA==",
+  "dgSpecHash": "OTxfoG0+d1TkcrpSsOvdMpC9o981wx0oO+45mLy4A/W5fLax8MyJgHDucCru/z9Ay88wSE488ILk8yc2kjEEDw==",
   "success": true,
   "projectFilePath": "C:\\Users\\phuc.giang\\source\\repos\\Demo_Architecture\\Application\\Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\phuc.giang\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
+    "C:\\Users\\phuc.giang\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
     "C:\\Users\\phuc.giang\\.nuget\\packages\\fluentvalidation\\11.1.0\\fluentvalidation.11.1.0.nupkg.sha512",
     "C:\\Users\\phuc.giang\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Users\\phuc.giang\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
@@ -48,6 +49,7 @@
     "C:\\Users\\phuc.giang\\.nuget\\packages\\microsoft.net.http.headers\\2.2.0\\microsoft.net.http.headers.2.2.0.nupkg.sha512",
     "C:\\Users\\phuc.giang\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
     "C:\\Users\\phuc.giang\\.nuget\\packages\\microsoft.win32.registry\\4.5.0\\microsoft.win32.registry.4.5.0.nupkg.sha512",
+    "C:\\Users\\phuc.giang\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\phuc.giang\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
     "C:\\Users\\phuc.giang\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
     "C:\\Users\\phuc.giang\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",

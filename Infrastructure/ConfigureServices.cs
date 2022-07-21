@@ -1,22 +1,26 @@
 ﻿using Application.Interfaces;
+using Application.Models;
 using Domain.Entities;
 using Infrastructure.Files.Maps;
 using Infrastructure.Persistence;
+using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-
+using Microsoft.Extensions.Options;
 
 public static class ConfigureServices
 {
 
     public static IServiceCollection AddInfrastructureServices(this IServiceCollection services, IConfiguration configuration)
     {
+     
         var connectionStringPostgres = configuration["ConnectionStrings:PostgreSQLConnection"];
+        //if(serverSetting.DatabaseProvider.Equals("SQLServer"))
         if (configuration.GetValue<string>("DatabaseProvider").Equals("SQLServer"))
         {
-            services.AddDbContext<AppDBContext>(options => options.UseSqlServer(connectionStringPostgres));
+            services.AddDbContext<AppDBContext>(options => options.UseSqlServer(configuration["ConnectionStrings:DefaultConnection"]));
         }
         else
         {
@@ -28,12 +32,7 @@ public static class ConfigureServices
         services.AddIdentityCore<User>().AddRoles<Role>().AddEntityFrameworkStores<AppDBContext>();
         services.AddAutoMapper(typeof(RoleMapper));
         services.AddAutoMapper(typeof(UserMapper));
-        services.AddScoped<SignInManager<User>>();
-        //services.AddTransient<IUserService, UserService>();
-        //services.AddTransient<IInvoiceService, InvoiceService>();
-        //services.AddTransient<IRoleService, RoleService>();
-        //services.AddTransient<IProductService, ProductService>();
-        //services.AddTransient<ICategoryService, CategoryService>();
+        //services.AddScoped<SignInManager<User>>();
         services.AddHttpContextAccessor();
         return services;
     }

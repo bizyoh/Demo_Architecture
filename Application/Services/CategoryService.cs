@@ -1,6 +1,7 @@
 ﻿
 using Application.Exceptions;
 using Application.Filters;
+using Application.Interfaces;
 using Application.Interfaces.CategoryService;
 using Application.Models.DTO.Category;
 using AutoMapper;
@@ -10,9 +11,9 @@ namespace Application.Services
 {
     public class CategoryService : ICategoryService
     {
-        private AppDBContext db;
+        private IApplicationDbContext db;
         private IMapper mapper;
-        public CategoryService(AppDBContext _db, IMapper _mapper)
+        public CategoryService(IApplicationDbContext _db, IMapper _mapper)
         {
             db = _db;
             mapper = _mapper;

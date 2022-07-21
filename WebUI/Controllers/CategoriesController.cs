@@ -1,9 +1,9 @@
 ﻿using Application.Exceptions;
+using Application.Filters;
 using Application.Interfaces.CategoryService;
 using Application.Models.DTO.Category;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using WebUI.Filters;
 
 namespace WebUI.Controllers
 {

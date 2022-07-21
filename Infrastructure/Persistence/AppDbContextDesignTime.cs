@@ -18,17 +18,18 @@ namespace Infrastructure.Persistence
                                 .AddJsonFile("appsettings.json")
                                 .Build();
 
-            var connectionString = configuration.GetConnectionString("DefaultConnection");
+            var connectionStringSQL = configuration.GetConnectionString("DefaultConnection");
+            var connectionStringPostgres = configuration["ConnectionStrings:PostgreSQLConnection"];
 
             var optionsBuilder = new DbContextOptionsBuilder<AppDBContext>();
 
             if (configuration.GetValue<string>("DatabaseProvider").Equals("SQLServer"))
             {
-                optionsBuilder.UseSqlServer(connectionString);
+                optionsBuilder.UseSqlServer(connectionStringSQL);
             }
             else
             {
-                optionsBuilder.UseNpgsql(connectionString);
+                optionsBuilder.UseNpgsql(connectionStringPostgres);
             }
 
             return new AppDBContext(optionsBuilder.Options);
