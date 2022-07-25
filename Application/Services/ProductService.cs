@@ -151,7 +151,7 @@ namespace Application.Services
 
         }
 
-        public dynamic UploadPhoto(int id, IFormFile file)
+        public dynamic UploadPhoto(int id,IFormFile file)
         {
             if (db.Products.Find(id) == null) throw new KeyNotFoundException(MessageErrors.ItemNotFound);
             string fileName = GenerateFileName(file);

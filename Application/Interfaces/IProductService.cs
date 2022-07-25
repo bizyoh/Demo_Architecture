@@ -13,7 +13,7 @@ namespace Application.Interfaces.ProductService
         public bool ChangeProductsStatus(List<Product> products);
         public CreatedProductDto Create(CreateProductDto createProductDto);
         public bool Update(int id, UpdateProductDto updateProductDto);
-        public dynamic UploadPhoto(int id,IFormFile file);
+        public dynamic UploadPhoto(int id , IFormFile file);
         public List<GetAllProductDto> GetAllProductsDtoByStatus(bool status);
         public List<GetAllProductDto> GetAllProductsDtoTop3ByDate();
         public Task<ProductCartDto> GetProductCartDtoById(int id);
