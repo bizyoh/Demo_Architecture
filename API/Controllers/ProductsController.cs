@@ -39,6 +39,7 @@ namespace WebUI.Controllers
             return Ok(products);
         }
 
+
         [HttpGet("categories/{id}")]
         [AllowAnonymous]
         public IActionResult GetAllProductsDtoByCategoryId(int id)

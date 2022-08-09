@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "8TKME2RZfcGehN/rN1RzD4CE/Kb5IoZhU5JcbSHsdtQ=",
+  "Hash": "vBDXpA8FuAXFlE+8ojOM1KeUDmWKy1LpWjHxEoYSmxg=",
   "Source": "API",
   "BasePath": "_content/API",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\products\\143f372534fa48cb83699415e808e58b.webp"
+    },
+    {
+      "Identity": "C:\\Users\\phuc.giang\\source\\repos\\Demo_Architecture\\API\\wwwroot\\images\\products\\1e144b2e2af24899ad81966ec1700099.jpg",
+      "SourceId": "API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\phuc.giang\\source\\repos\\Demo_Architecture\\API\\wwwroot\\",
+      "BasePath": "_content/API",
+      "RelativePath": "images/products/1e144b2e2af24899ad81966ec1700099.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\1e144b2e2af24899ad81966ec1700099.jpg"
     },
     {
       "Identity": "C:\\Users\\phuc.giang\\source\\repos\\Demo_Architecture\\API\\wwwroot\\images\\products\\279b275edfd64a768d5a74f022c5ffd0.PNG",
@@ -289,23 +306,6 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\6a0f323b9c3544e3931e9ddae64d31ff.PNG"
     },
     {
-      "Identity": "C:\\Users\\phuc.giang\\source\\repos\\Demo_Architecture\\API\\wwwroot\\images\\products\\6a2ccf9ff9214e32a7642034222c4e7b.jpg",
-      "SourceId": "API",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\phuc.giang\\source\\repos\\Demo_Architecture\\API\\wwwroot\\",
-      "BasePath": "_content/API",
-      "RelativePath": "images/products/6a2ccf9ff9214e32a7642034222c4e7b.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\6a2ccf9ff9214e32a7642034222c4e7b.jpg"
-    },
-    {
       "Identity": "C:\\Users\\phuc.giang\\source\\repos\\Demo_Architecture\\API\\wwwroot\\images\\products\\8539b8c77cec421c97658d52652be3ac.PNG",
       "SourceId": "API",
       "SourceType": "Discovered",
@@ -338,6 +338,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\products\\85bed26b2e3643e38e5e09ca74ac2df0.PNG"
+    },
+    {
+      "Identity": "C:\\Users\\phuc.giang\\source\\repos\\Demo_Architecture\\API\\wwwroot\\images\\products\\865e2840259a46d69bfd9e162f426087.jpg",
+      "SourceId": "API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\phuc.giang\\source\\repos\\Demo_Architecture\\API\\wwwroot\\",
+      "BasePath": "_content/API",
+      "RelativePath": "images/products/865e2840259a46d69bfd9e162f426087.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\865e2840259a46d69bfd9e162f426087.jpg"
     },
     {
       "Identity": "C:\\Users\\phuc.giang\\source\\repos\\Demo_Architecture\\API\\wwwroot\\images\\products\\8764443409e846d4833d660b0eea9b31.webp",
@@ -508,6 +525,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\products\\b58823ffc5d0478b816f77db8b2567af.PNG"
+    },
+    {
+      "Identity": "C:\\Users\\phuc.giang\\source\\repos\\Demo_Architecture\\API\\wwwroot\\images\\products\\bc950e7d90b64b8aa9150117d5c1388b.jfif",
+      "SourceId": "API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\phuc.giang\\source\\repos\\Demo_Architecture\\API\\wwwroot\\",
+      "BasePath": "_content/API",
+      "RelativePath": "images/products/bc950e7d90b64b8aa9150117d5c1388b.jfif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\bc950e7d90b64b8aa9150117d5c1388b.jfif"
     },
     {
       "Identity": "C:\\Users\\phuc.giang\\source\\repos\\Demo_Architecture\\API\\wwwroot\\images\\products\\be4b43d5f1d24996ab63782cd993b83f.jpg",

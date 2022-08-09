@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Ty4yTIbc1vPXFuXNEKEqPHdej4Y6dPhBGL9teEpG8VgwXeBKQczqvcUywxKxQUV7H+JnrCbekqofelXknGYp3Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\phuc.giang\\source\\repos\\Demo_Architecture\\Docker\\Docker.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\phuc.giang\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\phuc.giang\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

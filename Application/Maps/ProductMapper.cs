@@ -6,7 +6,7 @@ namespace Infrastructure.Files.Maps
 {
     public class ProductMapper : Profile
     {
-        private string BASE_URL = "https://localhost:7023/images/products/";
+        private string BASE_URL = "https://localhost:7275/images/products/";
         public ProductMapper()
         {
             CreateMap<UpdateProductDto, Product>().ForAllMembers(opts => opts.Condition((src, des, srcMem) => srcMem != null || srcMem != ""));

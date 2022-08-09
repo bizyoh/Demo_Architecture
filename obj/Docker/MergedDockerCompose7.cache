@@ -1,0 +1,54 @@
+services:
+  api:
+    build:
+      context: C:\Users\phuc.giang\source\repos\Demo_Architecture
+      dockerfile: API/Dockerfile
+    depends_on:
+      pg:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+      BASE_URL: http://api:7275/api
+      ConnectionStrings__PostgreSQLConnection: User ID=postgres;Password=postgres;Host=pg;Port=5432;Database=TanPhucShop;
+      JWT__Audience: ' you.info'
+      JWT__Issuer: https://phucdeptrai.com
+      JWT__Key: Meomeomeomeogaugaugaugaugaugau-alipapapapa-boasdasdasdas1da1sd2as2dw22qexcvmxl123
+    image: api:latest
+    ports:
+    - target: 80
+    - target: 443
+    volumes:
+    - C:\Users\phuc.giang\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\phuc.giang\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+  pg:
+    environment:
+      POSTGRES_DB: postgres
+      POSTGRES_PASSWORD: postgres
+    image: postgres:lastest
+    ports:
+    - published: 5432
+      target: 5432
+    volumes:
+    - pgdata:/var/lib/postgresql/data:rw
+  tanphucshop:
+    build:
+      context: C:\Users\phuc.giang\source\repos\Demo_Architecture
+      dockerfile: TanPhucShop/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+      BASE_URL: http://api:7275/api
+      Cookies__CookiesName: ' Token'
+      JWT__Issuer: http://api:7275
+      JWT__Key: Meomeomeomeogaugaugaugaugaugau-alipapapapa-boasdasdasdas1da1sd2as2dw22qexcvmxl123
+    image: tanphucshop:latest
+    ports:
+    - target: 80
+    - target: 443
+    volumes:
+    - C:\Users\phuc.giang\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\phuc.giang\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+version: '3.4'
+volumes:
+  pgdata: {}
