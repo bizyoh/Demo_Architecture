@@ -1,0 +1,42 @@
+version: '3.4'
+
+services:
+  pg:
+    image: postgres:9.6-alpine
+    ports:
+        - 5432:5432
+    volumes:
+        - pgdata:/var/lib/postgresql/data
+    environment:
+        POSTGRES_DB: postgres
+        POSTGRES_PASSWORD: postgres
+  api:
+    image: ${DOCKER_REGISTRY-}api:latest
+    environment:
+        - ConnectionStrings__PostgreSQLConnection=User ID=postgres;Password=postgres;Host=pg;Port=5432;Database=TanPhucShop;
+        - BASE_URL=http://api:7275/api
+        - JWT__Issuer=https://phucdeptrai.com
+        - JWT__Audience= you.info
+        - JWT__Key=Meomeomeomeogaugaugaugaugaugau-alipapapapa-boasdasdasdas1da1sd2as2dw22qexcvmxl123
+    depends_on:
+        - pg
+    build:
+      context: .
+      dockerfile: API/Dockerfile
+   
+  tanphucshop:
+    image: ${DOCKER_REGISTRY-}tanphucshop:latest
+    environment:
+        - BASE_URL=http://api:7275/api
+        - Cookies__CookiesName= Token
+        - JWT__Key=Meomeomeomeogaugaugaugaugaugau-alipapapapa-boasdasdasdas1da1sd2as2dw22qexcvmxl123
+        - JWT__Issuer=http://api:7275
+    depends_on:
+        - api
+    build:
+      context: .
+      dockerfile: TanPhucShop/Dockerfile
+  
+volumes:
+  pgdata:
+

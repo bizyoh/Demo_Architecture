@@ -41,6 +41,19 @@ namespace WebUI.Controllers
             return Created(BASE_URL + "/" + createdUser.Id, createdUser);
         }
 
+        //[HttpPost("refresh")]
+        //[AllowAnonymous]
+        //public async Task<IActionResult> Refresh(string accessToken)
+        //{
+        //   var user=await userService.Refresh(accessToken);
+        //    if (user != null)
+        //    {
+        //        return Ok(user);
+        //    }
+        //    return BadRequest();
+        //}
+
+
         [HttpPut]
         [Authorize(Roles ="User")]
         public async Task<IActionResult> UpdateByuser(int id, UpdateUserDto updateUserDto)

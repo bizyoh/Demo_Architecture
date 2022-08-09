@@ -13,3 +13,18 @@ C:\Users\phuc.giang\source\repos\Demo_Architecture\Application\obj\Debug\net6.0\
 C:\Users\phuc.giang\source\repos\Demo_Architecture\Application\obj\Debug\net6.0\refint\Application.dll
 C:\Users\phuc.giang\source\repos\Demo_Architecture\Application\obj\Debug\net6.0\Application.pdb
 C:\Users\phuc.giang\source\repos\Demo_Architecture\Application\obj\Debug\net6.0\ref\Application.dll
+C:\Users\bizyo\OneDrive\Tài liệu\GitHub\Demo_Architecture\Application\bin\Debug\net6.0\Application.deps.json
+C:\Users\bizyo\OneDrive\Tài liệu\GitHub\Demo_Architecture\Application\bin\Debug\net6.0\Application.dll
+C:\Users\bizyo\OneDrive\Tài liệu\GitHub\Demo_Architecture\Application\bin\Debug\net6.0\Application.pdb
+C:\Users\bizyo\OneDrive\Tài liệu\GitHub\Demo_Architecture\Application\bin\Debug\net6.0\Domain.dll
+C:\Users\bizyo\OneDrive\Tài liệu\GitHub\Demo_Architecture\Application\bin\Debug\net6.0\Domain.pdb
+C:\Users\bizyo\OneDrive\Tài liệu\GitHub\Demo_Architecture\Application\obj\Debug\net6.0\Application.csproj.AssemblyReference.cache
+C:\Users\bizyo\OneDrive\Tài liệu\GitHub\Demo_Architecture\Application\obj\Debug\net6.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bizyo\OneDrive\Tài liệu\GitHub\Demo_Architecture\Application\obj\Debug\net6.0\Application.AssemblyInfoInputs.cache
+C:\Users\bizyo\OneDrive\Tài liệu\GitHub\Demo_Architecture\Application\obj\Debug\net6.0\Application.AssemblyInfo.cs
+C:\Users\bizyo\OneDrive\Tài liệu\GitHub\Demo_Architecture\Application\obj\Debug\net6.0\Application.csproj.CoreCompileInputs.cache
+C:\Users\bizyo\OneDrive\Tài liệu\GitHub\Demo_Architecture\Application\obj\Debug\net6.0\Application.csproj.CopyComplete
+C:\Users\bizyo\OneDrive\Tài liệu\GitHub\Demo_Architecture\Application\obj\Debug\net6.0\Application.dll
+C:\Users\bizyo\OneDrive\Tài liệu\GitHub\Demo_Architecture\Application\obj\Debug\net6.0\refint\Application.dll
+C:\Users\bizyo\OneDrive\Tài liệu\GitHub\Demo_Architecture\Application\obj\Debug\net6.0\Application.pdb
+C:\Users\bizyo\OneDrive\Tài liệu\GitHub\Demo_Architecture\Application\obj\Debug\net6.0\ref\Application.dll

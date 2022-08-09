@@ -32,7 +32,6 @@ public static class ConfigureServices
         services.AddIdentityCore<User>().AddRoles<Role>().AddEntityFrameworkStores<AppDBContext>();
         services.AddAutoMapper(typeof(RoleMapper));
         services.AddAutoMapper(typeof(UserMapper));
-        //services.AddScoped<SignInManager<User>>();
         services.AddHttpContextAccessor();
         return services;
     }

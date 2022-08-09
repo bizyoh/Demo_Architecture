@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\phuc.giang\\source\\repos\\Demo_Architecture\\Infrastructure\\Infrastructure.csproj": {}
+    "C:\\Users\\bizyo\\OneDrive\\Tài liệu\\GitHub\\Demo_Architecture\\Infrastructure\\Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\phuc.giang\\source\\repos\\Demo_Architecture\\Application\\Application.csproj": {
+    "C:\\Users\\bizyo\\OneDrive\\Tài liệu\\GitHub\\Demo_Architecture\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\phuc.giang\\source\\repos\\Demo_Architecture\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\bizyo\\OneDrive\\Tài liệu\\GitHub\\Demo_Architecture\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\phuc.giang\\source\\repos\\Demo_Architecture\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\phuc.giang\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\phuc.giang\\source\\repos\\Demo_Architecture\\Application\\obj\\",
+        "projectPath": "C:\\Users\\bizyo\\OneDrive\\Tài liệu\\GitHub\\Demo_Architecture\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\bizyo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bizyo\\OneDrive\\Tài liệu\\GitHub\\Demo_Architecture\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\phuc.giang\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\bizyo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\phuc.giang\\source\\repos\\Demo_Architecture\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\phuc.giang\\source\\repos\\Demo_Architecture\\Domain\\Domain.csproj"
+              "C:\\Users\\bizyo\\OneDrive\\Tài liệu\\GitHub\\Demo_Architecture\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\bizyo\\OneDrive\\Tài liệu\\GitHub\\Demo_Architecture\\Domain\\Domain.csproj"
               }
             }
           }
@@ -107,21 +107,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\phuc.giang\\source\\repos\\Demo_Architecture\\Domain\\Domain.csproj": {
+    "C:\\Users\\bizyo\\OneDrive\\Tài liệu\\GitHub\\Demo_Architecture\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\phuc.giang\\source\\repos\\Demo_Architecture\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\bizyo\\OneDrive\\Tài liệu\\GitHub\\Demo_Architecture\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\phuc.giang\\source\\repos\\Demo_Architecture\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\phuc.giang\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\phuc.giang\\source\\repos\\Demo_Architecture\\Domain\\obj\\",
+        "projectPath": "C:\\Users\\bizyo\\OneDrive\\Tài liệu\\GitHub\\Demo_Architecture\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\bizyo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bizyo\\OneDrive\\Tài liệu\\GitHub\\Demo_Architecture\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\phuc.giang\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\bizyo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -147,6 +147,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
             "Microsoft.Extensions.Identity.Stores": {
               "target": "Package",
               "version": "[6.0.7, )"
@@ -167,21 +171,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\phuc.giang\\source\\repos\\Demo_Architecture\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Users\\bizyo\\OneDrive\\Tài liệu\\GitHub\\Demo_Architecture\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\phuc.giang\\source\\repos\\Demo_Architecture\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\bizyo\\OneDrive\\Tài liệu\\GitHub\\Demo_Architecture\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\phuc.giang\\source\\repos\\Demo_Architecture\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\phuc.giang\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\phuc.giang\\source\\repos\\Demo_Architecture\\Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\bizyo\\OneDrive\\Tài liệu\\GitHub\\Demo_Architecture\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\bizyo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bizyo\\OneDrive\\Tài liệu\\GitHub\\Demo_Architecture\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\phuc.giang\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\bizyo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -195,11 +199,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\phuc.giang\\source\\repos\\Demo_Architecture\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\phuc.giang\\source\\repos\\Demo_Architecture\\Application\\Application.csproj"
+              "C:\\Users\\bizyo\\OneDrive\\Tài liệu\\GitHub\\Demo_Architecture\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\bizyo\\OneDrive\\Tài liệu\\GitHub\\Demo_Architecture\\Application\\Application.csproj"
               },
-              "C:\\Users\\phuc.giang\\source\\repos\\Demo_Architecture\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\phuc.giang\\source\\repos\\Demo_Architecture\\Domain\\Domain.csproj"
+              "C:\\Users\\bizyo\\OneDrive\\Tài liệu\\GitHub\\Demo_Architecture\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\bizyo\\OneDrive\\Tài liệu\\GitHub\\Demo_Architecture\\Domain\\Domain.csproj"
               }
             }
           }
@@ -319,7 +323,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

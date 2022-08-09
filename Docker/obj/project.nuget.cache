@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "YHUZwFGiDPV5daXpOD72f4nWFaF48SjDewdT1MKlci7YZX1nLF/tGqEgnBsRZhZwm01KPZp+IdmiWG22acJgvQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\bizyo\\OneDrive\\Tài liệu\\GitHub\\Demo_Architecture\\Docker\\Docker.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\bizyo\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\bizyo\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

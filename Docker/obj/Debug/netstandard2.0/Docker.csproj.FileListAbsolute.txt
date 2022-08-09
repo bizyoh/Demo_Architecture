@@ -1,0 +1,10 @@
+C:\Users\phuc.giang\source\repos\Demo_Architecture\Docker\bin\Debug\netstandard2.0\Docker.deps.json
+C:\Users\phuc.giang\source\repos\Demo_Architecture\Docker\bin\Debug\netstandard2.0\Docker.dll
+C:\Users\phuc.giang\source\repos\Demo_Architecture\Docker\bin\Debug\netstandard2.0\Docker.pdb
+C:\Users\phuc.giang\source\repos\Demo_Architecture\Docker\obj\Debug\netstandard2.0\Docker.csproj.AssemblyReference.cache
+C:\Users\phuc.giang\source\repos\Demo_Architecture\Docker\obj\Debug\netstandard2.0\Docker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\phuc.giang\source\repos\Demo_Architecture\Docker\obj\Debug\netstandard2.0\Docker.AssemblyInfoInputs.cache
+C:\Users\phuc.giang\source\repos\Demo_Architecture\Docker\obj\Debug\netstandard2.0\Docker.AssemblyInfo.cs
+C:\Users\phuc.giang\source\repos\Demo_Architecture\Docker\obj\Debug\netstandard2.0\Docker.csproj.CoreCompileInputs.cache
+C:\Users\phuc.giang\source\repos\Demo_Architecture\Docker\obj\Debug\netstandard2.0\Docker.dll
+C:\Users\phuc.giang\source\repos\Demo_Architecture\Docker\obj\Debug\netstandard2.0\Docker.pdb

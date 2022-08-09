@@ -19,6 +19,7 @@ namespace Application.Interfaces.UserService
         public Task<AccessToken> CreateAccessToken(User user);
         public Task<AccessedUserDto> Login(LoginUserDto loginUserDto);
         public GetUserRoleDto FindUserRoleDtoById(int id);
+        public Task<AccessedUserDto> Refresh(string accessToken);
 
     }
 }

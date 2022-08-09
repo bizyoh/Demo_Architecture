@@ -43,6 +43,41 @@ namespace Application.Services
             db = _db;
             configuration = _configuration;
         }
+        public async Task<AccessedUserDto> Refresh(string accessToken)
+        {
+            var principal = GetPrincipalFromExpiredToken(accessToken);
+            var userName = principal.Identity.Name;
+            var user = await userManager.FindByNameAsync(userName);
+            user.RefreshToken = GenerateRefreshToken().Token;
+            if(db.SaveChanges() > 0)
+            {
+                var accessUserDto = mapper.Map<AccessedUserDto>(user);
+                var token =await CreateAccessToken(user);
+                accessUserDto.AccessToken = token.Token;
+               // accessUserDto.ExprireTime = token.ExpirityTime;
+                return accessUserDto;
+            }
+            return null;
+        }
+
+        public ClaimsPrincipal GetPrincipalFromExpiredToken(string token)
+        {
+            var tokenValidationParameters = new TokenValidationParameters
+            {
+                ValidateAudience = true, //you might want to validate the audience and issuer depending on your use case
+                ValidateIssuer = true,
+                ValidateIssuerSigningKey = true,
+                IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(configuration["JWT:Key"])),
+                ValidateLifetime = false //here we are saying that we don't care about the token's expiration date
+            };
+            var tokenHandler = new JwtSecurityTokenHandler();
+            SecurityToken securityToken;
+            var principal = tokenHandler.ValidateToken(token, tokenValidationParameters, out securityToken);
+            var jwtSecurityToken = securityToken as JwtSecurityToken;
+            if (jwtSecurityToken == null || !jwtSecurityToken.Header.Alg.Equals(SecurityAlgorithms.HmacSha256, StringComparison.InvariantCultureIgnoreCase))
+                throw new SecurityTokenException("Invalid token");
+            return principal;
+        }
 
         public async Task<AdminUpdateUserDto> AddRoleUser(int id, string role)
         {
